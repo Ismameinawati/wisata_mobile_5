@@ -82,7 +82,7 @@ class _FormScreen6State extends State<FormScreen6> {
                     switchValue = value;
                   });
                 }),
-                 SizeBox(
+                 SizedBox(
         width: double.infinity,
         child: ElevatedButton.styleFrom(
           backgroundColor: Colors.blue,
@@ -104,6 +104,6 @@ class _FormScreen6State extends State<FormScreen6> {
 
       ),
      
-    )
-  }
+    ),
+  },
 }
