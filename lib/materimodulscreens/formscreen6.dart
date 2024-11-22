@@ -84,11 +84,7 @@ class _FormScreen6State extends State<FormScreen6> {
                 }),
                  SizedBox(
         width: double.infinity,
-        child: ElevatedButton.styleFrom(
-          backgroundColor: Colors.blue,
-          foregroundColor: Colors.white,
-          shape: RoundedRectangleBorder.circular(12),
-          ),
+       
       ),
             ElevatedButton(
               onPressed: () {},
@@ -104,6 +100,6 @@ class _FormScreen6State extends State<FormScreen6> {
 
       ),
      
-    ),
-  },
+    );
+  }
 }
